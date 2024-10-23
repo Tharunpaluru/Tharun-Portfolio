@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        /* styles.css */
+        .card {
+            max-width: 300px;
+            background: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin: 20px;
+            overflow: hidden;
+        }
+        .maincard{
+            display: flex;
+            justify-content:space-between;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card h2 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .card p {
+            font-size: 16px;
+        }
+
+        .card a {
+            display: inline-block;
+            background: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        /* Media Query for responsiveness */
+        @media (max-width: 768px) {
+            .card {
+                max-width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="maincard">
+        <div class="card">
+            <img src="./images/apple.png".jpg" alt="Card Image">
+            <div class="card-content">
+                <h2>Card Title</h2>
+                <p>This is a simple card example with some sample content. You can customize it for your needs.</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/apple.png".jpg" alt="Card Image">
+            <div class="card-content">
+                <h2>Card Title</h2>
+                <p>This is a simple card example with some sample content. You can customize it for your needs.</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/apple.png".jpg" alt="Card Image">
+            <div class="card-content">
+                <h2>Card Title</h2>
+                <p>This is a simple card example with some sample content. You can customize it for your needs.</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
